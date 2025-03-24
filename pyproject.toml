@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auto_productionizer"
+version = "0.1.0"
+description = "From notebooks to production, this will be able to do it (hopefully)"
+authors = ["Ziyue Wang <wangziyue@hotmail.co.uk>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
